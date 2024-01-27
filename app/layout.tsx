@@ -1,5 +1,6 @@
 import { Footer, NavBar } from "@/components";
 import "./globals.css";
+import AboutPage from "@/components/AboutPage";
 
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className='relative'>
         <NavBar />
         {children}
+        <AboutPage />
         <Footer />
       </body>
     </html>
