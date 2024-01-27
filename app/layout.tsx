@@ -4,7 +4,7 @@ import AboutPage from "@/components/AboutPage";
 
 
 export const metadata = {
-  title: "Car Hub",
+  title: "Wheels Away",
   description: "Discover world's best car showcase application",
 };
 
