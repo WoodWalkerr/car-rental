@@ -1,15 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
-// pages/about.tsx
 import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <div className='hero max-w-[1440px] h-screen mx-auto' id="/about">
+    <div className='hero max-w-[1440px] z-10 overflow-auto h-screen mx-auto' id='about'>
       <div className="sm:px-16 px-6 py-10 flex flex-col sm:flex-row">
         <div className="flex-1 flex flex-col justify-center mb-6 sm:mb-0">
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">About Us</h1>
           <p className="mb-4">
-            Welcome to Car Rental, your one-stop destination for all your car rental needs.
+            Welcome to Wheels Away, your one-stop destination for all your car rental needs.
             Whether you need a vehicle for a business trip, a family vacation, or simply
             to get around town, we've got you covered.
           </p>
@@ -27,8 +26,8 @@ const AboutPage = () => {
 
         {/* Image */}
         <div className="flex-1 flex justify-center">
-          <div className="hero__image">
-            <Image src="/hero.png" alt="hero" className="object-contain" width={400} height={300} />
+          <div className="hero__image flex justify-center items-center">
+            <Image src="/hero-about.png" alt="hero" priority className="object-contain mx-auto" width={400} height={300} />
           </div>
         </div>
       </div>
